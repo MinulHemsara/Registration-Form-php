@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><u> Employee Registration Form</u></h1>
+<form action = "insert.php" method = "post" name="RegForm">
+<label>Employee Number:</label>
+<input type = "text" name = "RegNo" >
+<br/><br/>
+<label>First Name:</label>
+<input type = "text" name = "FirstName" required>
+<br/><br/>
+<label>Date of Birth:</label>
+<input type = "date" name= "DOB">
+<br/><br/>
+<label>Education:</label>
+<select name="course">
+<option value="Diploma"> DIPLOMA</option>
+<option value = "BSc"> DEGREE </option>
+<option value = "MSc"> MASTERS </option>
+</select> <br/> <br/>
+<label>Gender: </label>
+<input type = "radio" name= "Gender" value = "Male" > Male
+<input type = "radio" name="Gender" value = "Female"> Female </br> </br>
+<input type = "submit" value = "Insert" name="submit">
+<input type = "reset">
+</form>
+
+  </body>
+</html>
